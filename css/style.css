@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'sans-serif';
+  background-color: #fff;
+}
+
+body {
+  animation: fadeIn 1s ease 0s 1 normal;
+  -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+body > section {
+  margin: 0 auto;
+  /* background-color: #f6f8fc; */
+}
+
+section .category {
+  padding: 20px 0 5px;
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  color: #cf0095;
+}
+
+section .title {
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+  color: #24292e;
+}
+
+section .abstract{
+  text-align:center;
+  width: 80%;
+  font-size: 13pt;
+  font-weight: 700;
+  color: #6d7189;
+  font-family: canada-type-gibson,sans-serif;
+  letter-spacing: .01em;
+  margin: 10px auto 20px;
+}
+
+section .text{
+  text-align:left;
+  width: 80%;
+  font-size: 12pt;
+  color: #6d7189;
+  font-family: canada-type-gibson,sans-serif;
+  letter-spacing: .01em;
+  margin: 0 auto 10px;
+}
+
+section .fig {
+  width:40%;
+  margin: 5px auto 12px;
+  min-width: 500px;
+}
+
+.border {
+  border-bottom: 1px #e1e4e8 solid !important;
+}

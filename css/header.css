@@ -1,0 +1,32 @@
+header {
+  z-index: 999;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 7px 20px;
+  background-color: hsla(0, 0%, 20%, 1.0);
+  color: #fff;
+  font-family: "Avenir Next", Verdana, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, Osaka, sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container {
+  margin: 0 auto;
+}
+
+header .item {
+  display: inline;
+  margin-right: 14px;
+  padding: 0px 5px 5px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: hsla(0, 0%, 100%, 1.0);
+}
+
+header .item:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+}
