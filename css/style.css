@@ -72,10 +72,17 @@ section .text{
   margin: 0 auto 10px;
 }
 
-section .fig {
+#fig-mcs {
   width:40%;
   margin: 5px auto 12px;
   min-width: 500px;
+}
+
+#fig-brd {
+  width:30%;
+  border-radius: 8pt;
+  margin: 5px auto 12px;
+  min-width: 400px;
 }
 
 .border {
