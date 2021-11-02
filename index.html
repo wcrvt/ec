@@ -10,22 +10,21 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/header.css" rel="stylesheet" type="text/css">
     <link href="./css/footer.css" rel="stylesheet" type="text/css">
-    <link href="./css/overview.css" rel="stylesheet" type="text/css">
 
   </head>
 
   <header>
     <div class="container">
-      <div class="item"> Outline </div>
-      <div class="item"> Viewpoint </div>
-      <div class="item"> ESC </div>
-      <div class="item"> Flight Controller </div>
+      <div class="item" onclick="scrollPage('sec-viewpoint')"> Outline </div>
+      <div class="item" onclick="scrollPage('sec-viewpoint')"> Viewpoint </div>
+      <div class="item" onclick="scrollPage('sec-esc')"> ESC </div>
+      <div class="item" onclick="scrollPage('sec-fc')"> Flight Controller </div>
     </div>
   </header>
 
   <body>
 
-    <section class="border">
+    <section class="border" id="sec-viewpoint">
       <div class="category"> Viewpoint </div>
       <div class="title"> Pursuing Agility </div>
       <p class="abstract">
@@ -55,11 +54,10 @@
         We believe improving dexterity expands the availability of robots.
       </p>
 
-
     </section>
 
 
-    <section class="border">
+    <section class="border" id="sec-esc">
       <div class="category"> ESC </div>
       <div class="title"> The Core of Agile Motion </div>
       <p class="text">
@@ -68,7 +66,7 @@
       </p>
     </section>
 
-    <section>
+    <section id="sec-fc">
       <div class="category"> Flight Controller </div>
       <div class="title"> High Stability + Operationality </div>
       <p class="text">
@@ -97,5 +95,6 @@
     </footer>
   </body>
 
-
 </html>
+
+<script src="./js/function/scroll.js"></script>
