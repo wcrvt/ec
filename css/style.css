@@ -70,7 +70,6 @@ section .text{
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
   margin: 0 auto 10px;
-  word-break: keep-all;
 }
 
 
