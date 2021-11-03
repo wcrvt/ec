@@ -74,6 +74,11 @@ section .text{
   word-break: keep-all;
 }
 
+p strong {
+  white-space: nowrap;
+  color: #4f41d5;
+}
+
 .twocolumn{
   display: -webkit-box;
   display: -webkit-flex;
