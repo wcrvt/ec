@@ -1,0 +1,40 @@
+body > section {
+  margin: 0 auto;
+}
+
+body > section .category {
+  padding: 20px 0 5px;
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  color: #cf0095;
+}
+
+body > section .title {
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+  color: #24292e;
+}
+
+body > section .abstract{
+  text-align:center;
+  width: 80%;
+  font-size: 12pt;
+  font-weight: 700;
+  color: #6d7189;
+  font-family: canada-type-gibson,sans-serif;
+  letter-spacing: .01em;
+  margin: 10px auto 20px;
+}
+
+body > section .text{
+  text-indent: 1em;
+  text-align:left;
+  width: 80%;
+  font-size: 11pt;
+  color: #6d7189;
+  font-family: canada-type-gibson,sans-serif;
+  letter-spacing: .01em;
+  margin: 0 auto 10px;
+}
