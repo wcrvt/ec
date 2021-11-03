@@ -1,0 +1,28 @@
+#fig-mcs {
+  width:40%;
+  margin: 10px auto 18px;
+  min-width: 500px;
+}
+
+#fig-brd {
+  width:100%;
+  border-radius: 8pt;
+  margin: 5px auto 12px;
+}
+
+.img-switch {
+  position: absolute;
+}
+
+#fig-flight {
+  width:50%;
+  border-radius: 8pt;
+  margin: 25px auto 20px;
+}
+
+.video {
+  display: inline-flex;
+  height: 300px;
+  text-align: center;
+  margin: 5px auto;
+}

@@ -52,6 +52,7 @@ section .title {
 }
 
 section .abstract{
+  white-space: nowrap;
   text-align:center;
   width: 80%;
   font-size: 13pt;
@@ -70,19 +71,81 @@ section .text{
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
   margin: 0 auto 10px;
+  word-break: keep-all;
 }
 
-#fig-mcs {
-  width:40%;
-  margin: 5px auto 12px;
-  min-width: 500px;
+.twocolumn{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-#fig-brd {
-  width:30%;
-  border-radius: 8pt;
-  margin: 5px auto 12px;
-  min-width: 400px;
+.twocolumn .left{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  padding-right: 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.twocolumn .right{
+  position: -webkit-sticky;
+  position: sticky;
+  width: 30%;
+  height: 35vh;         /* position when unscrolled */
+  top: 6.0rem;          /* position when scrolled */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.twocolumn .left .text{
+  text-align:left;
+  width: 100%;
+  font-size: 12pt;
+  color: #6d7189;
+  font-family: canada-type-gibson,sans-serif;
+  letter-spacing: .01em;
+  margin: 30px auto 45px;
 }
 
 .border {

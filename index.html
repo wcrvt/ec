@@ -10,6 +10,7 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/header.css" rel="stylesheet" type="text/css">
     <link href="./css/footer.css" rel="stylesheet" type="text/css">
+    <link href="./css/image.css" rel="stylesheet" type="text/css">
 
   </head>
 
@@ -39,7 +40,7 @@
       <p class="text">
         How can we make robots dexterous? Why a human can acquire both versatility and dexterity?
         We started by mimicking a human motor control system, including a receptor, central nervous system, and effector.
-        Human action is roughly classified into 3 patterns: 1) deliberative motion via a cerebrum, 2) coordinating motion via a cerebellum, and 3) reflex motion through a spinal cord.
+        Human actions are roughly classified into 3 patterns: 1) deliberative motion via a cerebrum, 2) coordinating motion via a cerebellum, and 3) reflex motion through a spinal cord.
         Those complementary control systems have unique functionality and dexterity, and each system also has a task-specific architecture, respectively.
       </p>
 
@@ -50,7 +51,7 @@
         Most systems focused on achieving intelligence, and those systems make robots versatile.
         However, few systems include a reflex center, which enables fine control and disturbance suppression.
         Making this system is difficult because it requires an interdisciplinary system design integrating a fast reception system, computing system, and drive system.
-        Our team collaboratively try to construct a responsive system and provide agility to robots.
+        Against such a background, we are working to construct a responsive system with collaborating experts in each field, toward providing agility to robots.
         We believe improving dexterity expands the availability of robots.
       </p>
 
@@ -64,8 +65,43 @@
         PMSM driver embedding wideband field-oriented control.<br>
         This board enables fine and quick torque control for agile motion.
       </p>
-      <img src="./img/brd_handsize.jpg" id="fig-brd">
+
+      <div class="twocolumn">
+        <div class="left" id="esc-desc">
+          <p class="text" id="sss">
+            Imitating a human motor control system, hierarchical control systems have been developed so far.
+            Most systems focused on achieving intelligence, and those systems make robots versatile.
+            However, few systems include a reflex center, which enables fine control and disturbance suppression.
+            Making this system is difficult because it requires an interdisciplinary system design integrating a fast reception system, computing system, and drive system.
+            Our team collaboratively try to construct a responsive system and provide agility to robots.
+            We believe improving dexterity expands the availability of robots.
+          </p>
+          <p class="text">
+            Imitating a human motor control system, hierarchical control systems have been developed so far.
+            Most systems focused on achieving intelligence, and those systems make robots versatile.
+            However, few systems include a reflex center, which enables fine control and disturbance suppression.
+            Making this system is difficult because it requires an interdisciplinary system design integrating a fast reception system, computing system, and drive system.
+            Our team collaboratively try to construct a responsive system and provide agility to robots.
+            We believe improving dexterity expands the availability of robots.
+          </p>
+          <p class="text">
+            Imitating a human motor control system, hierarchical control systems have been developed so far.
+            Most systems focused on achieving intelligence, and those systems make robots versatile.
+            However, few systems include a reflex center, which enables fine control and disturbance suppression.
+            Making this system is difficult because it requires an interdisciplinary system design integrating a fast reception system, computing system, and drive system.
+            Our team collaboratively try to construct a responsive system and provide agility to robots.
+            We believe improving dexterity expands the availability of robots.
+          </p>
+        </div>
+        <div class="right" id="esc-img">
+          <img class="img-switch" src="./img/brd_handsize.jpg" id="fig-brd">
+          <img class="img-switch" src="./img/current.png" id="fig-brd">
+          <img class="img-switch" src="./img/velocity.png" id="fig-brd">
+        </di>
+      </div>
     </section>
+
+    <script src="./js/render/esc_render.js"></script>
 
     <section id="sec-fc">
       <div class="category"> Flight Controller </div>
@@ -73,6 +109,9 @@
       <p class="abstract">
         Stable attitude control and fine tracking control owing to high-speed thrust control.
       </p>
+      <video src="./video/responsiveManipulation.mp4" class="video" loop autoplay muted></video>
+      <video src="./video/stableOperation.mp4" class="video" loop autoplay muted></video>
+      <img src="./img/flight.png" id="fig-flight">
     </section>
 
 
