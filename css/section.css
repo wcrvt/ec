@@ -17,6 +17,13 @@ body > section .title {
   color: #24292e;
 }
 
+body > section .subtitle {
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 13pt;
+  color: #00a1ff;
+}
+
 body > section .abstract{
   text-align:center;
   width: 80%;

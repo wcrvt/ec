@@ -1,11 +1,20 @@
-.bluish-purple{
+.char-bluish-purple{
   color: #4f41d5;
 }
 
-.darkred {
+.char-darkred {
   color: #d54f41;
 }
 
-.darkgray {
+.char-darkgray {
   color: #444;
+}
+
+
+.bg-lightblue {
+  background: #f6f8fc;
+}
+
+.bg-lightorange{
+  background: #f9e6cf8a;
 }

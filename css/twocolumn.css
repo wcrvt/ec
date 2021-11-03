@@ -42,7 +42,7 @@
   position: -webkit-relative;
   position: relative;
   width: 30%;
-  height: 50vh;         /* position when unscrolled */
+  height: 40vh;         /* position when unscrolled */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -69,5 +69,5 @@
   color: #6d7189;
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
-  margin: 20px auto 25px;
+  margin: 5px auto 25px;
 }

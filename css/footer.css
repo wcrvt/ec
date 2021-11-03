@@ -45,3 +45,7 @@ footer li span:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+footer ul div {
+  margin: 0 8px 5px;
+}
