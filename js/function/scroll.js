@@ -21,8 +21,8 @@ const wpos = {x: 0.0, y: 0.0};
 window.addEventListener('DOMContentLoaded', function(){
   window.addEventListener('scroll', function(){
     [wpos.x, wpos.y] = [window.scrollX, window.scrollY];
-    setOpacity(obj_esc.img.children[0], {top: obj_esc.desc.pos.switch[0], bottom: obj_esc.desc.pos.switch[1]}, wpos.y);
-    setOpacity(obj_esc.img.children[1], {top: obj_esc.desc.pos.switch[1], bottom: obj_esc.desc.pos.switch[2]}, wpos.y);
-    setOpacity(obj_esc.img.children[2], {top: obj_esc.desc.pos.switch[2], bottom: obj_esc.desc.pos.switch[3]}, wpos.y);
+    setOpacity(obj_esc.img.children[0], {top: obj_esc.desc.pos.switch[0], bottom: obj_esc.desc.pos.bottom[0]}, wpos.y);
+    setOpacity(obj_esc.img.children[1], {top: obj_esc.desc.pos.bottom[0], bottom: obj_esc.desc.pos.bottom[1]}, wpos.y);
+    setOpacity(obj_esc.img.children[2], {top: obj_esc.desc.pos.bottom[1], bottom: obj_esc.desc.pos.switch[3]}, wpos.y);
   });
 });
