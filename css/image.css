@@ -5,14 +5,21 @@
 }
 
 #fig-brd {
-  width:100%;
+  width:70%;
   border-radius: 8pt;
   margin: 5px auto 12px;
 }
 
-.img-switch {
-  position: absolute;
+#fig-res-cc{
+  width:100%;
+  margin: 5px auto 12px;
 }
+
+#fig-res-vc{
+  width:100%;
+  margin: 5px auto 12px;
+}
+
 
 #fig-flight {
   width:50%;

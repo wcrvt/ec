@@ -32,10 +32,21 @@ body {
 }
 
 .border {
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   border-bottom: 1px #e1e4e8 solid !important;
+}
+
+.top-hspace {
+  padding-bottom: 10px;
+}
+.bottom-hspace {
+  padding-bottom: 10px;
 }
 
 .nowrap {
   white-space: nowrap;
+}
+
+.inlineblock {
+  display: inline-block;
 }

@@ -28,19 +28,19 @@
 
   <body>
 
-    <section class="border" id="sec-viewpoint">
-      <div class="category"> Viewpoint </div>
-      <div class="title"> Pursuing Agility </div>
-      <p class="abstract">
+    <section class="border bg-white" id="sec-viewpoint">
+      <div class="category char-magenta"> Viewpoint </div>
+      <div class="title char-lightblack"> Pursuing Agility </div>
+      <p class="abstract char-gray">
         Highly responsive to both command operation and disturbance.<br>
         Reducing a response lag contributes to suppress the risk of destabilization.
       </p>
-      <p lang="en" class="text">
+      <p lang="en" class="text char-gray">
         Our motivation is to provide versatility and dexterity to a robot.
         Robots show accurate and efficient operation and establish a leading position in some areas, but many tasks are still performed by human operators.
         For handling such works and pioneering new applications, we think robots should have more intelligence and dexterity.
       </p>
-      <p lang="en" class="text">
+      <p lang="en" class="text char-gray">
         How can we make robots dexterous? Why a human can acquire both versatility and dexterity?
         We started by mimicking a human motor control system, including a receptor, central nervous system, and effector.
         Human actions are roughly classified into 3 patterns:
@@ -50,7 +50,7 @@
 
       <img id="fig-mcs" src="./img/mcs.png">
 
-      <p lang="en" class="text">
+      <p lang="en" class="text char-gray">
         Imitating a human motor control system, hierarchical control systems have been developed so far.
         Most systems focused on achieving intelligence, and those systems make robots versatile.
         However, few systems include a reflex center, which enables fine control and disturbance suppression.
@@ -62,42 +62,42 @@
     </section>
 
 
-    <section class="border" id="sec-esc">
-      <div class="category"> ESC </div>
-      <div class="title"> The Core of Agile Motion </div>
-      <p class="abstract">
+    <section class="bg-deepblue" id="sec-esc">
+      <div class="category char-cyan"> ESC </div>
+      <div class="title char-white"> The Core of Agile Motion </div>
+      <p class="abstract char-white">
         PMSM driver embedding wideband field-oriented control.<br>
         This board enables fine and quick torque control for agile motion.
       </p>
 
       <div class="twocolumn">
         <div class="left">
-          <div class="subtitle">Compact Motr Driver</div>
-          <p lang="en" class="text">
+          <div class="subtitle char-blue">Compact Motr Driver</div>
+          <p lang="en" class="text char-white">
             Rated current is 15 A.
           </p>
         </div>
         <div class="right" id="esc-img">
-          <img class="img-switch" src="./img/brd_handsize.jpg" id="fig-brd">
+          <img src="./img/brd_handsize.jpg" id="fig-brd">
         </div>
       </div>
 
       <div class="twocolumn">
         <div class="left">
-          <div class="subtitle">Field Oriented Control</div>
-          <p lang="en" class="text">
+          <div class="subtitle char-blue">Field Oriented Control</div>
+          <p lang="en" class="text char-white">
             Wideband. 10 krad/s.
           </p>
         </div>
         <div class="right" id="esc-img">
-          <img class="img-switch" src="./img/current.png" id="fig-brd">
+          <img src="./img/current.png" id="fig-res-cc">
         </div>
       </div>
 
       <div class="twocolumn">
         <div class="left">
-          <div class="subtitle">Angular Velocity Control</div>
-          <p lang="en" class="text">
+          <div class="subtitle char-blue">Angular Velocity Control</div>
+          <p lang="en" class="text char-white">
             Imitating a human motor control system, hierarchical control systems have been developed so far.
             Most systems focused on achieving intelligence, and those systems make robots versatile.
             However, few systems include a reflex center, which enables fine control and disturbance suppression.
@@ -107,17 +107,18 @@
           </p>
         </div>
         <div class="right" id="esc-img">
-          <img class="img-switch" src="./img/velocity.png" id="fig-brd">
+          <img src="./img/velocity.png" id="fig-res-vc">
         </div>
       </div>
 
     </section>
 
-    <section id="sec-fc">
-      <div class="category"> Flight Controller </div>
-      <div class="title"> High Stability + Operationality </div>
-      <p class="abstract">
-        Stable attitude control and fine tracking control owing to high-speed thrust control.
+    <section id="sec-fc" class="bg-white">
+      <div class="category char-magenta"> Flight Controller </div>
+      <div class="title char-lightblack"> High Stability + Operationality </div>
+      <p class="abstract char-gray">
+        <span class="inlineblock">Stable attitude control and fine tracking control</span>
+        <span class="inlineblock">owing to high-speed thrust control.</span>
       </p>
       <video src="./video/responsiveManipulation.mp4" class="video" loop autoplay muted playsinline></video>
       <video src="./video/stableOperation.mp4" class="video" loop autoplay muted playsinline></video>
@@ -139,7 +140,7 @@
             <div>
               <span class="nowrap">receive Ph. D. degrees in integrated design engineering</span><br>
               <span class="nowrap">from Keio University, Yokohama, Japan, in 2020.</span><br>
-              <span class="nowrap">His research interests include motion control.</span>
+              <span class="nowrap">His research interest includes motion control.</span>
             </div>
             <li> Akihiro Nakamura &#12296;<span>nakamura@digitalservo.jp</span>&#12297; </li>
             <li> Takuya Hayashi &#12296;<span>hayashi@digitalservo.jp</span>&#12297; </li>
