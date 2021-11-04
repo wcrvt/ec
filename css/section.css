@@ -37,7 +37,7 @@ body > section .abstract{
 
 body > section .text{
   text-indent: 1em;
-  text-align:left;
+  text-align: justify;
   width: 80%;
   font-size: 11pt;
   color: #6d7189;

@@ -22,7 +22,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  padding-right: 1rem;
+  padding-right: 3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -63,7 +63,7 @@
 }
 
 .twocolumn .left .text{
-  text-align:left;
+  text-align: justify;
   width: 100%;
   font-size: 12pt;
   color: #6d7189;
