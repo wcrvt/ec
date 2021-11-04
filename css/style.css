@@ -50,3 +50,11 @@ body {
 .inlineblock {
   display: inline-block;
 }
+
+.underline {
+  cursor: pointer;
+}
+
+.underline:hover{
+  text-decoration: underline;
+}

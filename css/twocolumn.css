@@ -5,7 +5,8 @@
   display: -ms-flexbox;
   display: flex;
   width: 80%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
+  padding: 17px 0;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -36,6 +37,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  /*　margin: auto; */
 }
 
 .twocolumn .right{
