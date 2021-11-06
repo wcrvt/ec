@@ -1,6 +1,7 @@
 
 (function(){
   const switchDelay = 5000;
+  const animationDelay = 500;
   const imgbox = document.getElementById('fig-brd');
   const img_src = ['./img/brd1.png', './img/brd2.png', './img/brd3.png'];
   let idx = 0;
@@ -11,6 +12,6 @@
     setTimeout(function(){
       imgbox.src = img_src[idx];
       imgbox.classList.add('-fade');
-    }, 500);
+    }, animationDelay);
   }, switchDelay);
 })();
