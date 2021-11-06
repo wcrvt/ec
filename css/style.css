@@ -58,3 +58,9 @@ body {
 .underline:hover{
   text-decoration: underline;
 }
+
+.mainTitle{
+  color: #666;
+  font-size: 2rem;
+  padding-top: 50px;
+}
