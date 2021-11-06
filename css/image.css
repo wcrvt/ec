@@ -4,10 +4,26 @@
   min-width: 500px;
 }
 
+#esc-img {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #fig-brd {
   width:75%;
   border-radius: 8pt;
   margin: 15px auto 12px;
+}
+
+.fadeFigure{
+  transition: all .5s;
+  opacity: 0;
+}
+.-fade {
+  transition: all .5s;
+  opacity: 1;
 }
 
 #fig-res-cc{
