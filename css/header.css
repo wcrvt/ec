@@ -15,7 +15,7 @@ header {
 
 @media screen and (max-width: 480px){
   header {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
 

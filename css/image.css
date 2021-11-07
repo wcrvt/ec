@@ -19,7 +19,12 @@
   text-align: center;
   margin: 0 auto;
   width:75%;
-  border-radius: 8pt;
+}
+
+@media screen and (max-width: 480px){
+  #fig-brd {
+    width:70%;
+  }
 }
 
 .fadeFigure{
@@ -47,6 +52,12 @@
   width:50%;
   border-radius: 8pt;
   margin: 25px auto 20px;
+}
+
+@media screen and (max-width: 480px){
+  #fig-flight {
+    width:90%;
+  }
 }
 
 .video {
