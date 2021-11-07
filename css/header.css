@@ -7,10 +7,16 @@ header {
   background-color: hsla(0, 0%, 20%, 1.0);
   color: #fff;
   font-family: "Avenir Next", Verdana, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, Osaka, sans-serif;
-  font-size: 13px;
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 480px){
+  header {
+    font-size: 0.8rem;
+  }
 }
 
 header .container {

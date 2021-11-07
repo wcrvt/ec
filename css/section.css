@@ -2,29 +2,35 @@ body > section {
   margin: 0 auto;
 }
 
+body > section .mainTitle{
+  color: #666;
+  font-size: 1.6rem;
+  padding-top: 50px;
+}
+
 body > section .category {
   padding: 30px 0 5px;
   font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  font-size: 13pt;
+  font-size: 1rem;
 }
 
 body > section .title {
   font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  font-size: 18pt;
+  font-size: 1.5rem;
 }
 
 body > section .subtitle {
   font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  font-size: 13pt;
+  font-size: 1rem;
 }
 
 body > section .abstract{
   text-align:center;
   width: 80%;
-  font-size: 12pt;
+  font-size: 1.1rem;
   font-weight: 700;
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
@@ -35,7 +41,7 @@ body > section .text{
   text-indent: 1em;
   text-align: justify;
   width: 80%;
-  font-size: 11pt;
+  font-size: 1rem;
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
   margin: 0 auto 10px;
