@@ -63,10 +63,16 @@
   align-items: flex-start;
 }
 
+.twocolumn .left .subtitle {
+  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .twocolumn .left .text{
   text-align: justify;
   width: 100%;
-  font-size: 12pt;
+  font-size: 1rem;
   font-family: canada-type-gibson,sans-serif;
   letter-spacing: .01em;
   margin: 5px auto 25px;
@@ -139,10 +145,16 @@
     align-items: flex-start;
   }
 
+  .twocolumn .left .subtitle {
+    font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
   .twocolumn .left .text{
     text-align: justify;
     width: 100%;
-    font-size: 12pt;
+    font-size: 0.8rem;
     font-family: canada-type-gibson,sans-serif;
     letter-spacing: .01em;
     margin: 5px auto 25px;

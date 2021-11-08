@@ -21,12 +21,6 @@ body > section .title {
   font-size: 1.5rem;
 }
 
-body > section .subtitle {
-  font-family: "Meiryo", Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-}
-
 body > section .abstract{
   text-align:center;
   width: 80%;
@@ -82,7 +76,7 @@ body > section .text{
   body > section .abstract{
     text-align:center;
     width: 80%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     font-family: canada-type-gibson,sans-serif;
     letter-spacing: .01em;
@@ -93,7 +87,7 @@ body > section .text{
     text-indent: 0.8rem;
     text-align: justify;
     width: 80%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: canada-type-gibson,sans-serif;
     letter-spacing: .01em;
     margin: 0 auto 10px;
