@@ -7,7 +7,7 @@ function scrollPage(box_id) {
   scrollTo({top: position, behavior: 'smooth'});
 }
 
-
+/*
 const setOpacity = (elem, range, pos) => {
   if(pos < range.bottom && pos > range.top) elem.style.opacity = 1.0;
   else{
@@ -23,3 +23,4 @@ window.addEventListener('DOMContentLoaded', function(){
     [wpos.x, wpos.y] = [window.scrollX, window.scrollY];
   });
 });
+*/
